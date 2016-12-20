@@ -1,12 +1,12 @@
 package ru.enfester.laun;
 
 /**
- *
+ * Файл конфига
  * @author Антон
  */
 public class Config {
     
-  // НЕ ИСПОЛЬЗОВАТЬ https://
+    // НЕ ИСПОЛЬЗОВАТЬ https://
     static String mcdir = ".enfester"; // Папка с клиентом (можно с точкой и с маленькой буквы)
     static String launchername = "EnfesterLauncherFX.jar"; // Имя файла лаунчера (какой файл качает и запускает)
     static String sysdir = "http://laun.enfester.ru/"; // Путь на сайте до папки с лаунчером

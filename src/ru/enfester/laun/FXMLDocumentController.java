@@ -5,7 +5,6 @@ import java.util.ResourceBundle;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
 import javafx.scene.control.ProgressBar;
-import javafx.scene.layout.AnchorPane;
 
 /**
  * Когда загружаеться документ верстки fxml к нему подключаеться это класс
