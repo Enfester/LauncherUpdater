@@ -83,7 +83,8 @@ public class Update {
 
     private boolean needsUpdate() {
         
-        // Читаем php файл методом get, который передает MD5 файла лаунчера на сайте
+        // Передаем скрипту на сайте имя файла методом GET
+        // Читаем ответ и получаем MD5 файла лаунчера на сайте
         String s = Util.runGET(Config.phpdir, "file=" + Config.launchername).replace("\n", "").trim(); 
         if (s == null || s.equals("")) { // есил пусто возвращаем false
             return false;

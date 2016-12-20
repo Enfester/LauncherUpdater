@@ -9,8 +9,13 @@ import java.security.DigestInputStream;
 import java.security.MessageDigest;
 import java.util.Formatter;
 import javafx.application.Platform;
-
 import javafx.scene.control.ProgressBar;
+
+
+/**
+ *
+ * @author Антон
+ */
 
 public class Util {
 
