@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="" fx:id="panel" cache="true" cacheHint="DEFAULT" prefHeight="320.0" prefWidth="320.0" style="-fx-background-color: rgba(255, 255, 255, 0);" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="launch.FXMLDocumentController">
+  <children>
+    <AnchorPane layoutX="0.0" layoutY="0.0" prefHeight="320.0" prefWidth="320.0" style="-fx-border-radius: 30px;&#10;-fx-border: 4px;&#10;-fx-border-color: black;&#10;-fx-background-color: rgba(255, 255, 255, 1);">
+      <children>
+        <ProgressBar fx:id="bar" layoutX="60.0" layoutY="239.0" prefWidth="200.0" progress="-1.0" />
+        <ProgressIndicator layoutX="281.0" layoutY="14.0" minHeight="-1.0" minWidth="-1.0" prefHeight="19.0" prefWidth="19.0" />
+        <Label layoutX="96.0" layoutY="259.0" text="Обновление лаунчера.." />
+        <ImageView fitHeight="195.0" fitWidth="195.0" layoutX="63.0" layoutY="24.0" pickOnBounds="true" preserveRatio="true">
+          <image>
+            <Image url="@logo.png" />
+          </image>
+        </ImageView>
+      </children>
+    </AnchorPane>
+  </children>
+</AnchorPane>
