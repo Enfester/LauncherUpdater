@@ -4,6 +4,9 @@
 .mtj.tmp/
 
 # Package Files #
+*.php
+*.html
+*.xml
 *.jar
 *.war
 *.ear
